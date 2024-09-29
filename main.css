@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #111e;
+}
+
+/* Container Styles */
+
+.container {
+    background-color: #efffff;
+    width: 80vw;
+    max-width: 37.5em;
+    padding: 2.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.625em;
+    box-shadow: 0 1.25em 2.5em rgba(0, 21, 44, 0.18);
+}
+
+/* Heading Styles */
+
+h2 {
+    font-size: 1.875em;
+    color: #111e;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.3em;
+}
+/* Wrapper Styles */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.8em;
+}
+
+/* Label Styles */
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    color: #850121;
+}
+
+/* Input Styles */
+
+input {
+    position: relative;
+    font-size: 1.1em;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    border: 1.5px solid #43405c;
+    color: #43405c;
+    outline: none;
+}
+
+/* Input Focus Styles */
+
+input:focus {
+    border-color: #0075ff;
+}
+
+/* Error Message Styles */
+
+.error-msg {
+    text-align: center;
+    margin-top: 1.25em;
+    color: #ff4362;
+}
